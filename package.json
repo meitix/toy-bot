@@ -1,0 +1,37 @@
+{
+  "name": "toy-robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/app/index.ts",
+    "test": "npx mocha -r ts-node/register ./**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.realestate.com.au:recruiting/toy-robot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/inversify": "^2.0.33",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.8",
+    "@types/reflect-metadata": "^0.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
+    "typings": "^2.1.1"
+  },
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}

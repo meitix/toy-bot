@@ -1,0 +1,10 @@
+{
+    "board": {
+        "dimensionsCantBeLessThanOne": "Dimensions can't be less than 1."
+    },
+    "bot": {
+        "placeIsOutOfBoard": "Bot can't be placed, the place spot is out of board.",
+        "cantDoThisMove": "Can not do this move, there is no place to go in this direction.",
+        "botIsNotPlaced": "Can not run asked command because the bot is not placed yet."
+    }
+}
